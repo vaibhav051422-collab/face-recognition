@@ -5,11 +5,12 @@ from dotenv import load_dotenv
 load_dotenv()
 
 FACE_MATCH_THRESHOLD = float(os.getenv("FACE_MATCH_THRESHOLD", "0.6"))
+SERPAPI_KEY = os.getenv("SERPAPI_KEY")
 
 
 
-GOOGLE_APPLICATION_CREDENTIALS = os.getenv("GOOGLE_APPLICATION_CREDENTIALS")
-# Path to your GCP service-account JSON key file.
+# GOOGLE_APPLICATION_CREDENTIALS = os.getenv("GOOGLE_APPLICATION_CREDENTIALS")
+# # Path to your GCP service-account JSON key file.
 
 SOCIAL_DOMAINS = [
     "instagram.com",
