@@ -1,13 +1,4 @@
-"""
-Isolated Polygon Amoy write test.
 
-Sends a dummy SHA-256 payload in a zero-value self-transfer, then
-re-reads the transaction from the RPC so you can confirm the write is real
-before running the full pipeline.
-
-Usage (from repo root):
-    python -m src.test_blockchain
-"""
 from datetime import datetime, timezone
 
 from src import config

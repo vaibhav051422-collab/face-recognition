@@ -1,14 +1,4 @@
-"""
-End-to-end pipeline:
 
-  detect/encode face → reverse-image search (social domains) →
-  download each candidate → re-encode + compare faces →
-  save verified match JSON → SHA-256 → write hash to Polygon Amoy.
-
-Usage (from repo root):
-    python -m src.pipeline path/to/photo.png
-    python -m src.pipeline path/to/photo.png --skip-chain
-"""
 from __future__ import annotations
 
 import argparse

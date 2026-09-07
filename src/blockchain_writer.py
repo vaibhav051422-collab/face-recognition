@@ -1,13 +1,4 @@
-"""
-Stage 3: Write a tamper-evident record of the match to a public testnet
-(Polygon Amoy by default). We hash the match data and embed the hash in
-a transaction's `data` field — no smart contract required, but a
-contract-based version (StoreMatch.sol) is included for extra structure.
 
-Pattern: keep the FULL match record off-chain (records/ dir, JSON),
-put only the SHA-256 hash on-chain. Anyone can re-hash the off-chain
-record and compare it to what's on-chain to prove it hasn't been altered.
-"""
 import hashlib
 import json
 import os
