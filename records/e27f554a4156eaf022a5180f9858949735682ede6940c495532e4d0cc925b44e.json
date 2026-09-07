@@ -1,0 +1,7 @@
+{
+  "source_image": "isolated-test",
+  "matched_url": "https://example.com/isolated-test",
+  "matched_image_url": "https://example.com/isolated-test.jpg",
+  "face_distance": 0.0,
+  "timestamp": "2026-09-06T19:33:42.086098+00:00"
+}
