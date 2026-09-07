@@ -160,4 +160,3 @@ face-blockchain-pipeline/
 ├── requirements.txt
 ├── .env.example
 └── README.md
-```
